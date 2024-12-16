@@ -4,7 +4,7 @@ namespace Test_Project_interface.Controllers
 {
     public class AdminController : Controller
     {
-        public IActionResult Dashboard()
+        public IActionResult Dashboard  ()
         {
             return View();
         }
